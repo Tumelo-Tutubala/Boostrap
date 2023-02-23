@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.jumbotron{
+    background-image:url("/images/dmoss_img.jpeg");
+    background-size:cover;
+    height:720px;
+}
+
+.lead{
+    color:purple;
+    font-weight:bold;
+}
+
+.display-6{
+    color:purple;
+}
+
+.gal{
+    margin-top: 105px;
+    text-align:center;
+}
+
+.navbar-brand{
+    color: purple;
+    font-weight: bolder;
+}
+
+.nav-link{
+    color: black;
+}
+.ptn{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner{
+    text-align: center;
+
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+
+.photo {
+    position: relative;
+  }
+  footer{
+    background-color: yellow;
+  }
+  .photo .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+  }
+  
+  .photo:hover .caption {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .photo:hover img {
+    opacity: 0.7;
+  }
+  
